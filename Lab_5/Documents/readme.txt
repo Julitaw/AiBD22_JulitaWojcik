@@ -1,0 +1,1 @@
+Dane o gruźlicy w różnych grupach pacjentów.
