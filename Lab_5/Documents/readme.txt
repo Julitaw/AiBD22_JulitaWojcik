@@ -1,6 +1,9 @@
 Dane o gruźlicy w różnych grupach pacjentów.
 Lokalizacja oryginalnego pliku danych  :  folder OriginalData.
 Lokalizacja przetworzonego pliku danych  :  folder AnalysisData i folder Documents.
+Lokalizacja kodu potrzebnego do przetworzenia danych  :  folder CommandFiles, plik writtenCode.ipynb..
+Lokalizacja przykładowej wizulacji danych dla wybranego kraju :  folder Documents, plik DataAppendix.ipynb.
+
 
 Etapy przetwarzania danych:
 1. Elimacja wierszy , gdzie kolumnach 'iso2' i 'year' znajdowały się Nan-wartości
@@ -23,4 +26,4 @@ Znaczenie symboli w przetworzonym pliku danych:
    '5564'- wiek badanego w przedziale 55-64
    '65'- wiek badanego 65+
 
-Dane przetwarzano w języku Python w środowisku VisualStudioCode z użyciem biblioteki pandas.
+Dane przetwarzano w języku Python w środowisku Visual Studio Code z użyciem biblioteki pandas.
